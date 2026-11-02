@@ -18,6 +18,17 @@ public class Triangle17 {
             i++;
         }
 
+        // Inverted Triangle
+        i = 0;
+        while (i < n) {
+            int j = 0;
+            while (j < n - i) {
+                System.out.print("*");
+                j++;
+            }
+            System.out.println();
+            i++;
+        }
         sc.close();
     }
 }
